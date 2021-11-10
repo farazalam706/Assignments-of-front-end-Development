@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // // ---------------Q1-------------
+        // var x = [];
+
+        // // ---------------Q2-------------
+        // var y = {};
+        // // ---------------Q3-------------
+        // var objArray = ["Faraz", "Alam", "Ammad", "Ali"];
+
+        // // ---------------Q4-------------
+        // var numArray = ["1", "2", "3", "4"];
+
+        // // ---------------Q5-------------
+        // var bolArray = [true, false];
+
+        // // ---------------Q6-------------
+        // var mixArray = [1, false, "Faraz"];
+
+        // ---------------Q7-------------
+        // var array = ["SSC", "HSC", "BCS", "BS ", "BCOM", "MS ", "M.Phil", "PhD"];
+        // document.write("Qualifications: <br>");
+        // for (let i = 0; i < array.length; i++) {
+        //     document.write(`${i+1}) ${array[i]} <br>`);
+
+        // }
+
+
+        // ---------------Q8-------------
+        var students = [];
+        var obtMarks = [];
+        var percentage = [];
+        var totalMarks = 850;
+        for (let i = 0; i < 3; i++) {
+            students.push(prompt(`Enter Student ${i + 1} name:`));
+            obtMarks.push(prompt(`Enter Marks of ${students[i]}: `));
+            percentage.push(`${obtMarks[i] / totalMarks * 100}: `);
+        }
+        for (let i = 0; i < 3; i++) {
+            document.write(`Score of ${students[i]} is ${obtMarks[i]}. Percentage: ${percentage[i]}% <br>`);
+        }
+    </script>
+</body>
+
+</html>

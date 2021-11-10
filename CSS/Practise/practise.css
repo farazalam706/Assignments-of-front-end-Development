@@ -1,0 +1,118 @@
+*{
+    background-color: lightgrey;
+}
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    background-color: chocolate;
+    background-color: cyan;
+    font-size: xx-large;
+    padding: 0px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(cup.jpg);
+}
+
+h1:first-letter{
+    font-size: 200%;
+    
+}
+@font-face{
+    font-family:'Faraz';
+    src:url('amuba_2/Amuba\ FREE.ttf');
+}
+@font-face {
+    font-family:'Alam';
+    src: url('BlackgroundsRegular-1GEYj.ttf');
+}
+b{
+    color: crimson !important;
+}
+b{
+    color: darkblue;
+}
+.p1{
+    font-family: Faraz;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    border: 5px solid #ee3e80;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    border-radius: 20px 40px 60px 80px;
+
+
+
+    padding: 20px;
+  
+
+
+    
+
+}
+.p2{font-family: Alam;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+}
+ul li a{
+    color: deeppink;
+
+}
+a:visited{
+    color: brown;
+}
+.a1 a:hover{
+    color: cyan;
+}
+a:active{
+    color: darkorange;
+}
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #820b86f8;
+    color: #ffffff;}
+input.submit:hover {
+    background-color: #665544;}
+input.submit:active {
+    background-color: chocolate;}
+input.text {
+    color: #cccccc;}
+input.text:focus {
+    color: #665544;}
+/* .one {
+        overflow: hidden;
+        background-color: darkseagreen;
+        border-width:3px;
+
+    }
+.two {
+        overflow: scroll;
+        background-color: darkslategrey; */
+    /* } */
+.one{
+    border-width: 2px;
+    width: 400px;
+
+}
+.two{
+    border-width: 2px 5px 2px 5px;
+    border-style:dotted;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+li{
+    display: inline;
+    
+}
+.ul2 li{
+    word-spacing: 50px;
+}
+.fa{
+    visibility: hidden;
+}

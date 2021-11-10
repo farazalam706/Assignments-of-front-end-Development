@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+.main-navbar a {
+  text-decoration: none;
+}
+.navbar-right-div a {
+  margin: 20px;
+  color: purple;
+}
+.main-navbar {
+  display: flex;
+  flex-flow: row;
+}
+.navbar-left-div {
+  width: 100%;
+}
+.navbar-left-div {
+  margin: 20px 20px 20px 20px;
+}
+.navbar-right-div {
+  min-width: 440px;
+  margin-top: 38px;
+}
+.navbar-right-div {
+  padding: 20px;
+}
+.navbar-right-div:hover {
+  color: rgb(168, 14, 14);
+}
+.navbar-left-div a {
+  color: rgb(168, 14, 14);
+}
+.navbar-left-div a {
+  font-size: 70px;
+}
+body {
+  margin-bottom: 20%;
+  background-color: #b5651d;
+}
+.footer a {
+  font-size: 40px;
+  text-decoration: none;
+  text-indent: 30px;
+  margin-top: 50px;
+}
+.footer {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 0px;
+  background-color: burlywood;
+  float: none;
+  margin-bottom: 0px;
+}
+.upper-footer {
+  display: flex;
+  flex-flow: row;
+}
+.upper-footer-right {
+  float: right;
+  width: 100%;
+}
+.upper-footer-left .product {
+  color: saddlebrown;
+  width: 100%;
+}
+.upper-footer-left .find {
+  color: slateblue;
+}
+.upper-footer-left .This {
+  color: teal;
+}
